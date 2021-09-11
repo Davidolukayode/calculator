@@ -5,17 +5,46 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
   <title>ARITHMETIC CALCULATOR</title>
 </head>
 
 <body>
   <div class="container">
-    <h1>AN ARITMETIC CALCULATOR</h1>
-    <form id="form1" class="form-container">
-        
+    <h1>AN ARITHMETIC CALCULATOR</h1>
+    <br>
+    <form id="firstForm">
+      <input type="number" id="number1">
+      <input type="number" id="number2">
+      <button class="btn btn-primary" type="submit"> + </button>
     </form>
+    <br>
 
-    
+    <form id="secondForm">
+      <input type="number" id="numbr1">
+      <input type="number" id="numbr2">
+      <button class="btn btn-primary" type="submit"> - </button>
+    </form>
+    <br>
+
+    <form id="thirdForm">
+      <input type="number" id="numb1">
+      <input type="number" id="numb2">
+      <button class="btn btn-primary" type="submit"> * </button>
+    </form>
+    <br>
+
+    <form id="firthForm">
+      <input type="number" id="num1">
+      <input type="number" id="num2">
+      <button class="btn btn-primary" type="submit"> / </button>
+    </form>
+    <br>
+
+    <p id="answer">A N S W E R</p>
   </div>
 </body>
 
